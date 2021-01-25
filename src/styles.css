@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Revalia', cursive;
+    background-color: #212121;
+    color:#BC86FD;
+    text-shadow: 2px 3px 6px #000000;
+}

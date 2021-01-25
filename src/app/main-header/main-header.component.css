@@ -1,0 +1,40 @@
+.Headerr{
+    display: flex;
+    margin: auto;
+    width: 95%;
+    height: 60px;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+
+.nav1,heading{
+margin-right: 20px;
+}
+.nav1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    /* background-color:aqua; */
+}
+ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    padding: 0;
+}
+.heading{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* flex-flow: column nowrap; */
+    /* background-color:aqua; */
+}

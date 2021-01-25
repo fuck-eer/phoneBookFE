@@ -1,0 +1,47 @@
+.listEl{
+    width: 95%;
+    height: 10vh;
+    background: #323538;
+    box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.92);
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin: 0px auto 20px auto;
+}
+
+.listdata{
+width: 95%;
+height: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-flow: row nowrap;
+}
+.textfield{
+    width: 70%;
+    font-weight: 100;
+}
+
+.checkbtn{
+    width: 20%;
+    margin-right: 10px;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+flex-flow: row nowrap;
+}
+
+.crossbtn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #05D8C4;
+}
+.tickbtn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #BC86FD;
+}
