@@ -35,6 +35,14 @@ h1{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    transform: rotate(-8deg);
+    transform-origin: center 150px ;
+    margin-top: 30px ;
+    font-family: 'Satisfy', sans-serif;
+
     /* flex-flow: column nowrap; */
     /* background-color:aqua; */
+}
+.b{
+    font-size: 45px;
 }

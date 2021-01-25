@@ -3,7 +3,14 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Revalia', cursive;
+    /* font-family: 'Ubuntu', sans-serif; */
     background-color: #212121;
     color:#BC86FD;
     text-shadow: 2px 3px 6px #000000;
+
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
 }
