@@ -1,0 +1,126 @@
+.user-logo{
+  
+    position: absolute;
+    left: -11px;
+    top: -10px;
+}
+
+.user-logo img {
+
+    width: 90px;
+    height: 80px;
+}
+
+.profile {
+    
+    position: absolute;
+    width: 55%;
+    height: 30%;
+    left: 10%;
+    top: 15%;
+    background: linear-gradient(90deg, #454C52 0%, #212121 67.53%);
+    border-radius: 34px;
+}
+
+.profile-image {
+    
+position: absolute;
+height: 150px;
+width: 150px;
+left: 75%;
+top: 18%;
+background: #454C52;
+box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.92);
+border-radius: 50%;
+} 
+
+.connections {
+
+    width: 40%;
+    height: 10%;
+    top: 53%;
+    left: 8%;
+    position: absolute;
+    background-color:#454C52;
+    border-radius: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+     0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.delete-contact {
+
+    width: 40%;
+    height: 10%;
+    top: 66%;
+    left: 8%;
+    position: absolute;
+    background-color:#454C52;
+    border-radius: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+     0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.dash-bar{
+
+    top: 30%;
+    position: absolute;
+    width: 100%;
+    list-style: none;
+    
+}
+
+.dash-bar li {
+
+    display: inline-flex;
+    margin-top: 8%;
+    margin-left: 8%;
+    position: relative;
+    font-size: 20px;
+    padding: 12px;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+.hidebox{
+
+    width: 280px;
+    background-color:#454C52;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+     0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.rejectbox {
+    width: 280px;
+    background-color:#454C52;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+     0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.restorebox {
+    width: 280px;
+    background-color:#454C52;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+     0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.hidebox img{
+    width: 30px;
+    height: 30px;
+}
+
+.rejectbox img {
+    width: 30px;
+    height: 30px;
+}
+
+.restorebox img{
+
+    width: 30px;
+    height: 30px;
+}
+
+
