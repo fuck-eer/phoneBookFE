@@ -1,0 +1,43 @@
+.loginarea{
+width: 100%;
+height: 100%;
+/* background-color: aquamarine; */
+display: flex;
+flex-flow: column nowrap;
+justify-content:center;
+align-items: center;
+}
+.logcard{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logcard p{
+    cursor: pointer;
+}
+
+.signcard{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signcard p{
+    cursor: pointer;
+}
+
+app-login{
+    width: 40%;
+    height: 85%;
+}
+app-sign{
+    width: 40%;
+    height: 85%;
+}

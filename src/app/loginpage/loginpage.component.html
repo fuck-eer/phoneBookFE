@@ -1,1 +1,11 @@
+<div class="loginarea">
+    <div *ngIf="showwhat==='login'" class="logcard">
+        <app-login></app-login>
+<p (click)="showwhat='signup'">SignUp</p>
+    </div>
 
+    <div *ngIf="showwhat==='signup'" class="signcard">
+<p (click)="showwhat='login'">LogIn</p>
+<app-sign></app-sign>
+    </div>
+</div>

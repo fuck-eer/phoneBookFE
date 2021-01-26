@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginpageComponent implements OnInit {
 
+  showwhat:string='login';
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onswitch(){
+
   }
 
 }
