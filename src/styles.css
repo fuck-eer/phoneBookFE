@@ -7,10 +7,49 @@ body{
     background-color: #212121;
     color:#BC86FD;
     text-shadow: 2px 3px 6px #000000;
-
 }
 
-::-webkit-scrollbar {
-    width: 0px;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
+input{
+    all: unset;
+padding: 10px;
+width: 80%;
+background-color: #121212;
+border-radius: 10px;
+border: 2px solid transparent;
+}
+::placeholder{
+    color: #aaa;
+    font-weight: 100;
+    font-size: 12px;
+    
+}
+
+
+
+input:focus{
+    transition: all 0.3s;
+    border: 2px solid #BC86FD;
+}
+
+input:invalid{
+    border: 2px solid #ff5050;
+}
+
+
+button{
+    all:unset;
+    cursor: pointer;
+    padding: 10px;
+border-radius: 10px;
+background-color: #BC86FD;
+color: #212121;
+text-shadow: none;
+font-weight: 400;
+box-shadow: 0px 8px 10px -4px #000;
+}
+
+button:active{
+    transition: all 0.3s;
+    transform: scale(0.8);
+    box-shadow: 0px 3px 10px -4px #000;
 }

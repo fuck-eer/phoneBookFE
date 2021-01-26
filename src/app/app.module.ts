@@ -10,6 +10,8 @@ import { ConnectReqComponent } from './homepage/connect-req/connect-req.componen
 import { ContactsComponent } from './homepage/contacts/contacts.component';
 import { ConnListElComponent } from './homepage/connect-req/conn-list-el/conn-list-el.component';
 import { PhnListComponent } from './homepage/contacts/phn-list/phn-list.component';
+import { SignComponent } from './loginpage/sign/sign.component';
+import { LoginComponent } from './loginpage/login/login.component';
 
 
 @NgModule({
@@ -24,6 +26,9 @@ import { PhnListComponent } from './homepage/contacts/phn-list/phn-list.componen
     ContactsComponent,
     ConnListElComponent,
     PhnListComponent,
+  
+    SignComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule
